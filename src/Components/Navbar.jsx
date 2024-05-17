@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="logo md:order-first md:m-4 flex space-x-4 items-center">
               <img
                 src={logo}
-                className="w-[5.5rem] md:ml-10 md:mr-4"
+                className="w-[5.5rem] cursor-pointer md:ml-10 md:mr-4"
                 alt="logo"
               />
               <div
@@ -64,7 +64,7 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3 text-nowrap hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3 text-nowrap hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
                   >
@@ -74,9 +74,12 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3 hover:decoration-1 hover:underline-offset-[4px] hover:underline  ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
+                  //   style={{
+                  //     borderBottom: '2px solid black'
+                  // }}
                   >
                     Teams
                   </a>
@@ -84,7 +87,7 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3  hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
                   >
@@ -94,7 +97,7 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3  hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
                   >
@@ -104,7 +107,7 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3  hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
                   >
@@ -114,7 +117,7 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
+                    className={`block py-2 px-3  hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
                       isOpen ? "text-gray-900" : "text-gray-600"
                     }`}
                   >
@@ -124,8 +127,8 @@ const Navbar = () => {
                 <div className={isOpen ? "mb-4" : ""}>
                   <a
                     href="#"
-                    className={`block py-2 px-3  hover:border hover:border-separate  border-b-2 sm:border-none ${
-                      isOpen ? "text-gray-900" : "text-gray-600"
+                    className={`block py-2 px-3  hover:decoration-1 hover:underline-offset-[4px] hover:underline ${
+                      isOpen ? "text-gray-900 " : "text-gray-600"
                     }`}
                   >
                     Support
@@ -135,12 +138,12 @@ const Navbar = () => {
             </div>
             
             <div className=" md:order-none flex md:space-x-4  items-center">
-              <div className="text-xs hidden lg:block">All microsoft</div>
+              <div className="text-xs hidden lg:block hover:decoration-2 hover:underline-offset-[4px] hover:underline  cursor-pointer ">All microsoft</div>
               <div className="search hidden  md:items-center md:space-x-1 md:justify-center md:hidden  lg:flex">
-                <span className="text-xs">Search</span>
+                <span className="text-xs  cursor-pointer hover:decoration-1 hover:underline-offset-[4px] hover:underline " > Search</span>
                 <div className="md:hidden  lg:flex">
                   <svg
-                    class="w-6 h-4 text-gray-900 dark:text-gray-500 rotate-90"
+                    class="w-6 h-4 text-gray-900 cursor-pointer dark:text-gray-500 rotate-90"
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -158,12 +161,12 @@ const Navbar = () => {
               </div>
               <div className="cart flex space-x-3  items-center   md:text-xs md:flex md:items-center md:space-x-3  ">
                 <div className=" flex   md:hidden  lg:flex ">
-                  <span className="hidden md:block">Cart</span>
-                  <img src={cart} className="w-4 mr-4 " alt="" />
+                  <span className="hidden md:block cursor-pointer hover:decoration-1 hover:underline-offset-[4px] hover:underline">Cart</span>
+                  <img src={cart} className="w-4 mr-4  cursor-pointer" alt="" />
                 </div>
-                <span className="hidden md:block text-nowrap">Sign in</span>
+                <span className="hidden md:block text-nowrap cursor-pointer">Sign in</span>
                 <div className="border border-1 border-gray-700 p-2  rounded-full ">
-                  <img src={profile} className="h-3" alt="" />
+                  <img src={profile} className="h-3 cursor-pointer" alt="" />
                 </div>
               </div>
             </div>
