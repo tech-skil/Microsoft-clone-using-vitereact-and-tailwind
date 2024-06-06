@@ -98,4 +98,4 @@ If you've got any ideas, suggestions, or even just a bug to report, we'd love to
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Project live link : (https://microsoft-clone-using-vitereact-and-tailwind.vercel.app/)
+## Project live link : [https://microsoft-clone-using-vitereact-and-tailwind.vercel.app/]
