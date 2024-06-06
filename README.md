@@ -14,16 +14,14 @@ This project is all about using the latest web development tricks - we're talkin
 ### Desktop View
 
 1.
-  ![Desktop View 1]
-  [(https://github.com/tech-skil/Microsoft-clone-using-vite-react-and-tailwind/assets/130985031/be6245d6-e800-4c94-986e-d00c3e6afe01)](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/dekstopview%20(2).png)
+  ![Desktop View 1](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/dekstopview%20(2).png)
 
 3.
-  ![Desktop View 2]
-  [(https://github.com/tech-skil/Microsoft-clone-using-vite-react-and-tailwind/assets/130985031/ee37af03-d29e-46d0-aa4e-f90857d983d1)
-](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/dekstopview%20(1).png)
+  ![Desktop View 2](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/dekstopview%20(1).png)
+
+
 ### Mobile View
-![Mobile View][
-(https://github.com/tech-skil/Microsoft-clone-using-vite-react-and-tailwind/assets/130985031/4f6c7a9d-a0e0-419c-b2e2-e4eb3d0c8912)](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/mobileview%20(1).png)
+![Mobile View](https://github.com/tech-skil/Microsoft-clone-using-vitereact-and-tailwind/blob/main/mobileview%20(1).png)
 
 
 
